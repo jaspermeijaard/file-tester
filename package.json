@@ -1,0 +1,23 @@
+{
+  "name": "fit-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/index.ts --outDir dist",
+    "watch": "tsc src/index.ts --outDir dist --watch",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "prettier": "skyhawk-util-core/prettier",
+  "dependencies": {
+    "@types/node": "^14.14.6",
+    "fit-file-parser": "backfit/backfit",
+    "skyhawk-util-core": "git+ssh://git@github.com/relivecc/skyhawk-util-core.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
