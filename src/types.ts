@@ -1,19 +1,19 @@
 export type FileType = "fit" | "gpx" | "tcx";
 
-type FileValidateResultBase<T extends FileType> =
+type ValidateResultBase<T extends FileType> =
     | {
           type: T;
           valid: true;
       }
     | {
-          type: T;
+          type: T | "unknown";
           valid: false;
           error?: string;
       };
 
-type FitValidateResult = FileValidateResultBase<"fit">;
-type GpxValidateResult = FileValidateResultBase<"gpx">;
-type TscValidateResult = FileValidateResultBase<"tcx">;
+type FitValidateResult = ValidateResultBase<"fit">;
+type GpxValidateResult = ValidateResultBase<"gpx">;
+type TscValidateResult = ValidateResultBase<"tcx">;
 
 export type FileValidateResult = FitValidateResult | GpxValidateResult | TscValidateResult;
 

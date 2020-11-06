@@ -6,6 +6,8 @@ import { FileType, FileValidator } from "./types";
  */
 export const validateFitFile: FileValidator = async (buffer) => {
     const type: FileType = "fit";
+
+    // @TODO only read header and not full file
     const blob: Uint8Array = new Uint8Array(getArrayBuffer(buffer));
 
     if (blob.length < 12) {
