@@ -1,0 +1,49 @@
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Polar Accesslink" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+    <metadata>
+        <author>
+            <name>Polar Accesslink</name>
+        </author>
+        <time>2017-05-20T13:24:12.178</time>
+        <bounds maxlon="4.46782337" maxlat="51.92359724" minlon="4.46759638" minlat="51.92346325" />
+    </metadata>
+    <trk>
+        <trkseg>
+            <trkpt lon="4.46759638" lat="51.92359724">
+                <time>2017-05-17T17:08:35.995</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46759638" lat="51.92359724">
+                <time>2017-05-17T17:08:36.994</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46775732" lat="51.92351048">
+                <time>2017-05-17T17:08:38.001</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46775732" lat="51.92351048">
+                <time>2017-05-17T17:08:38.020</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46775732" lat="51.92351048">
+                <time>2017-05-17T17:08:39.002</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46778389" lat="51.92346325">
+                <time>2017-05-17T17:08:40.004</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46778389" lat="51.92346325">
+                <time>2017-05-17T17:08:41.004</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46778389" lat="51.92346325">
+                <time>2017-05-17T17:08:42.006</time>
+                <sat>4</sat>
+            </trkpt>
+            <trkpt lon="4.46782337" lat="51.92357993">
+                <time>2017-05-17T17:08:42.707</time>
+                <sat>4</sat>
+            </trkpt>
+        </trkseg>
+    </trk>
+</gpx>
